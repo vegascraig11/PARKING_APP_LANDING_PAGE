@@ -1,0 +1,161 @@
+@font-face {
+    font-family: HelveticaNeueBold;
+
+    src: url('HelveticaBold.ttf');
+}
+@font-face {
+    font-family: HelveticaNeueThin;
+
+    src: url('HelveticaNeue Thin.ttf');
+}
+@font-face {
+    font-family: HelveticaNeue;
+
+    src: url('helvetica.ttf');
+}
+.grey-button{
+    background-color: #4d4d4d;
+}
+.grey-background{
+    background-color: #424242;
+}
+.green-background{
+    background-color: #99bf02;
+}
+.green{
+    color:#99bf02;
+}
+.logo.col-sm-6 > img {
+    padding-left: 125px;
+}
+.header .pull-right > img {
+    margin-bottom: -10px;
+}
+.logo.col-sm-6 {
+    padding-top: 20px;
+}
+.no-pad-right{
+    padding-right: 0px;
+}
+.btn.grey-button.flat.green.pull-right {
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+.hero-banner{
+    background: url('../images/bg_hero_banner_watermark.png') no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    /*width: 100%;*/
+}
+.hero-two{
+    background: url('../images/img_hero_bg_women.png') no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+}
+.download-background{
+    background: url('../images/img_download_the_app.png') no-repeat ;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 550px;
+    padding: 110px 380px;
+}
+.white{
+    color:#fff;
+}
+.hero-banner h2{
+    font-family: HelveticaNeueBold;
+    font-size:44px;
+}
+.form button{
+    font-family: HelveticaNeueBold;
+}
+.hero-banner h2 span{
+    border-bottom: 2px solid #4d4d4d ;
+    padding-bottom: 15px;
+}
+.hero-banner p{
+    font-size:22px;
+    font-family: HelveticaNeueThin;
+    margin-top: 30px;
+}
+.col-sm-5.hero-banner {
+    padding: 49px 3px 200px 140px;
+}
+.form{
+    background-color: white;
+    /*opacity: 0.6;*/
+    padding: 10px;
+}
+.email-form{
+    position: absolute;
+    top:60%;
+}
+.email-form .form-control,.email-form button{
+    height: 40px;
+}
+
+.park-pin-pad h2,h2{
+    font-size: 40px;
+}
+.park-pin-pad p,p{
+    font-size: 18px;
+}
+.park-pin-pad p,.park-pin-pad h2,.grey-background h2,
+.grey-background p, .green-background h2 , .green-background p,.helvetica ,.download-background button{
+    /*font-family: HelveticaNeue;*/
+}
+.row.pin-park,.grey-background,.green-background{
+    padding:70px 200px
+}
+.col-sm-6.park-pin-pad {
+    padding-top: 100px;
+}
+.icon-container {
+    padding-bottom: 30px;
+}
+.white-bordered.btn.no-background {
+
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #fff;
+    border-image: none;
+    border-radius: 1px;
+    color: #fff;
+
+    padding: 7px 40px;
+    margin-top: 30px;
+}
+.text-me-button{
+
+    background: #99bf02;
+    border-image: none;
+    border-radius: 1px;
+    color: #fff;
+    padding: 7px 40px;
+    margin-top: 30px;
+}
+.row.top {
+    margin-top: 78px;
+}
+.navbar-inverse {
+    background-color: #fff !important;
+    border-bottom: 2px solid #4d4d4d !important;
+}
+#myModal .col-sm-6 > img ,#myModalText  .col-sm-6 > img{
+    height: 167px;
+    width: 259px;
+}
+.no-border{
+    border-bottom: 0px !important;
+}
+.modal-dialog {
+    margin: 200px auto;
+    width: 600px;
+}
+.modal{
+    overflow-y: auto;
+}
+body{
+    padding-right: 0px !important;
+}
